@@ -19,8 +19,8 @@ class RestaurantListTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
-
-   
+    
+    
     @IBAction func addButtonTapped(sender: AnyObject) {
         setUpRestaurantAlert()
     }
@@ -35,7 +35,14 @@ class RestaurantListTableViewController: UITableViewController {
                 let name = textFields[0].text,
                 let address = textFields[1].text,
                 let category = textFields[2].text {
-                   
+                    
+                    if name.isEmpty || address.isEmpty || category.isEmpty {
+                        return
+                    } else {
+                        // CREATE RESTAURANT
+                        let restaurant = Restaurant(name: name, category: category, address: address)
+                        
+                    }
             }
         }
         
