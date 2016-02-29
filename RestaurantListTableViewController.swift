@@ -20,11 +20,41 @@ class RestaurantListTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    @IBAction func addButtonTapped(sender: AnyObject) {
+        setUpRestaurantAlert()
     }
-
+    
+    func setUpRestaurantAlert() {
+        let alert = UIAlertController(title: "Add Restaurant", message: "Enter restaurant details below", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let cancel = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
+        
+        let save = UIAlertAction(title: "Save", style: UIAlertActionStyle.Default) { (action) -> Void in
+            if let textFields = alert.textFields,
+                let name = textFields[0].text,
+                let address = textFields[1].text,
+                let category = textFields[2].text {
+                   
+            }
+        }
+        
+        alert.addAction(cancel)
+        alert.addAction(save)
+        
+        alert.addTextFieldWithConfigurationHandler { (nameField) -> Void in
+            nameField.placeholder = "Name"
+        }
+        alert.addTextFieldWithConfigurationHandler { (addressField) -> Void in
+            addressField.placeholder = "Address"
+        }
+        alert.addTextFieldWithConfigurationHandler { (categoryField) -> Void in
+            categoryField.placeholder = "Category"
+        }
+        presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {

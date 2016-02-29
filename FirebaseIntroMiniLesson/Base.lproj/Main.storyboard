@@ -44,7 +44,13 @@
                             <outlet property="delegate" destination="Td1-oU-RIi" id="iNj-ys-Ojl"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Restaurant List" id="oC0-a8-dha"/>
+                    <navigationItem key="navigationItem" title="Restaurant List" id="oC0-a8-dha">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Hfk-q3-TGZ">
+                            <connections>
+                                <action selector="addButtonTapped:" destination="Td1-oU-RIi" id="tSn-Lc-a7P"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="myu-RG-dRY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
