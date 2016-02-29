@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		83F3C8F11C84BC1A005D37A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C8F01C84BC1A005D37A4 /* AppDelegate.swift */; };
-		83F3C8F31C84BC1A005D37A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C8F21C84BC1A005D37A4 /* ViewController.swift */; };
 		83F3C8F61C84BC1A005D37A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F3C8F41C84BC1A005D37A4 /* Main.storyboard */; };
 		83F3C8F81C84BC1A005D37A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F3C8F71C84BC1A005D37A4 /* Assets.xcassets */; };
 		83F3C8FB1C84BC1A005D37A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F3C8F91C84BC1A005D37A4 /* LaunchScreen.storyboard */; };
 		83F3C9061C84BC1A005D37A4 /* FirebaseIntroMiniLessonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C9051C84BC1A005D37A4 /* FirebaseIntroMiniLessonTests.swift */; };
 		83F3C9111C84BC1A005D37A4 /* FirebaseIntroMiniLessonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C9101C84BC1A005D37A4 /* FirebaseIntroMiniLessonUITests.swift */; };
+		83F3C91F1C84BCBF005D37A4 /* RestaurantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C91E1C84BCBF005D37A4 /* RestaurantListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		83F3C8ED1C84BC1A005D37A4 /* FirebaseIntroMiniLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseIntroMiniLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F3C8F01C84BC1A005D37A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83F3C8F21C84BC1A005D37A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83F3C8F51C84BC1A005D37A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83F3C8F71C84BC1A005D37A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F3C8FA1C84BC1A005D37A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		83F3C90C1C84BC1A005D37A4 /* FirebaseIntroMiniLessonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseIntroMiniLessonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F3C9101C84BC1A005D37A4 /* FirebaseIntroMiniLessonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseIntroMiniLessonUITests.swift; sourceTree = "<group>"; };
 		83F3C9121C84BC1A005D37A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F3C91E1C84BCBF005D37A4 /* RestaurantListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantListTableViewController.swift; path = ../RestaurantListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		83F3C8EF1C84BC1A005D37A4 /* FirebaseIntroMiniLesson */ = {
 			isa = PBXGroup;
 			children = (
+				83F3C91E1C84BCBF005D37A4 /* RestaurantListTableViewController.swift */,
 				83F3C8F01C84BC1A005D37A4 /* AppDelegate.swift */,
-				83F3C8F21C84BC1A005D37A4 /* ViewController.swift */,
 				83F3C8F41C84BC1A005D37A4 /* Main.storyboard */,
 				83F3C8F71C84BC1A005D37A4 /* Assets.xcassets */,
 				83F3C8F91C84BC1A005D37A4 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F3C8F31C84BC1A005D37A4 /* ViewController.swift in Sources */,
+				83F3C91F1C84BCBF005D37A4 /* RestaurantListTableViewController.swift in Sources */,
 				83F3C8F11C84BC1A005D37A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
