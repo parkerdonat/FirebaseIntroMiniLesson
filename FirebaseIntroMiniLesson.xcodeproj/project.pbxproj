@@ -14,6 +14,7 @@
 		83F3C9061C84BC1A005D37A4 /* FirebaseIntroMiniLessonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C9051C84BC1A005D37A4 /* FirebaseIntroMiniLessonTests.swift */; };
 		83F3C9111C84BC1A005D37A4 /* FirebaseIntroMiniLessonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C9101C84BC1A005D37A4 /* FirebaseIntroMiniLessonUITests.swift */; };
 		83F3C91F1C84BCBF005D37A4 /* RestaurantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C91E1C84BCBF005D37A4 /* RestaurantListTableViewController.swift */; };
+		83F3C9211C84BFD3005D37A4 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C9201C84BFD3005D37A4 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		83F3C9101C84BC1A005D37A4 /* FirebaseIntroMiniLessonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseIntroMiniLessonUITests.swift; sourceTree = "<group>"; };
 		83F3C9121C84BC1A005D37A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F3C91E1C84BCBF005D37A4 /* RestaurantListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantListTableViewController.swift; path = ../RestaurantListTableViewController.swift; sourceTree = "<group>"; };
+		83F3C9201C84BFD3005D37A4 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				83F3C91E1C84BCBF005D37A4 /* RestaurantListTableViewController.swift */,
+				83F3C9201C84BFD3005D37A4 /* Restaurant.swift */,
 				83F3C8F01C84BC1A005D37A4 /* AppDelegate.swift */,
 				83F3C8F41C84BC1A005D37A4 /* Main.storyboard */,
 				83F3C8F71C84BC1A005D37A4 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				83F3C91F1C84BCBF005D37A4 /* RestaurantListTableViewController.swift in Sources */,
 				83F3C8F11C84BC1A005D37A4 /* AppDelegate.swift in Sources */,
+				83F3C9211C84BFD3005D37A4 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
