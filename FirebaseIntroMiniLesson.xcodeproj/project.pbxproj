@@ -22,6 +22,7 @@
 		83F3C92B1C84C842005D37A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F3C92A1C84C842005D37A4 /* CFNetwork.framework */; };
 		83F3C92D1C84C850005D37A4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F3C92C1C84C850005D37A4 /* libc++.tbd */; };
 		83F3C92F1C84C865005D37A4 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F3C92E1C84C865005D37A4 /* libicucore.tbd */; };
+		83F3C9321C84C8E8005D37A4 /* RestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C9311C84C8E8005D37A4 /* RestaurantController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		83F3C92A1C84C842005D37A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		83F3C92C1C84C850005D37A4 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		83F3C92E1C84C865005D37A4 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		83F3C9311C84C8E8005D37A4 /* RestaurantController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,14 +122,14 @@
 		83F3C8EF1C84BC1A005D37A4 /* FirebaseIntroMiniLesson */ = {
 			isa = PBXGroup;
 			children = (
-				83F3C91E1C84BCBF005D37A4 /* RestaurantListTableViewController.swift */,
-				83F3C9201C84BFD3005D37A4 /* Restaurant.swift */,
-				83F3C8F01C84BC1A005D37A4 /* AppDelegate.swift */,
+				83F3C9341C84C8F7005D37A4 /* View */,
+				83F3C9331C84C8EE005D37A4 /* Controller */,
+				83F3C9351C84C8FF005D37A4 /* Model */,
 				83F3C8F41C84BC1A005D37A4 /* Main.storyboard */,
+				83F3C8F01C84BC1A005D37A4 /* AppDelegate.swift */,
 				83F3C8F71C84BC1A005D37A4 /* Assets.xcassets */,
 				83F3C8F91C84BC1A005D37A4 /* LaunchScreen.storyboard */,
 				83F3C8FC1C84BC1A005D37A4 /* Info.plist */,
-				83F3C9221C84C380005D37A4 /* FirebaseController.swift */,
 			);
 			path = FirebaseIntroMiniLesson;
 			sourceTree = "<group>";
@@ -161,6 +163,31 @@
 				83F3C9241C84C3E2005D37A4 /* Firebase.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F3C9331C84C8EE005D37A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83F3C9221C84C380005D37A4 /* FirebaseController.swift */,
+				83F3C9311C84C8E8005D37A4 /* RestaurantController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		83F3C9341C84C8F7005D37A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83F3C91E1C84BCBF005D37A4 /* RestaurantListTableViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		83F3C9351C84C8FF005D37A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83F3C9201C84BFD3005D37A4 /* Restaurant.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +325,7 @@
 				83F3C91F1C84BCBF005D37A4 /* RestaurantListTableViewController.swift in Sources */,
 				83F3C8F11C84BC1A005D37A4 /* AppDelegate.swift in Sources */,
 				83F3C9211C84BFD3005D37A4 /* Restaurant.swift in Sources */,
+				83F3C9321C84C8E8005D37A4 /* RestaurantController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
